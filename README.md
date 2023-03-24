@@ -54,3 +54,59 @@ Sentry is a developer-first error tracking and performance monitoring platform t
   - [Code](https://github.com/getsentry/sentry)
   - [Transifex](https://www.transifex.com/getsentry/sentry/) (Translate
     Sentry\!)
+    CC
+10
+Quick Start
+10 Remaining tasks
+
+Settings
+CC
+connect-cdj
+
+android
+Ownership Rules
+Search
+Issue Owners
+
+Import CODEOWNERS
+Auto-assign issues to users and teams. To learn more, read the docs.
+
+OWNERSHIP RULES
+
+Edit
+#example usage
+path:src/example/pipeline/* person@sentry.io #infra
+module:com.module.name.example #sdks
+url:http://example.com/settings/* #product
+tags.sku_class:enterprise #enterprise
+ISSUE OWNERS
+Prioritize Auto Assignment
+When there's a conflict between suspect commit and ownership rules.
+Auto-assign to issue owner
+Sync changes from CODEOWNERS
+We’ll update any changes you make to your CODEOWNERS files during a release.
+
+
+Edit Ownership Rules
+
+Globbing Syntax
+* matches everything
+? matches any single character
+Examples
+path:src/example/pipeline/* person@sentry.io #infra
+module:com.module.name.example #sdks
+url:http://example.com/settings/* #product #infra
+tags.sku_class:enterprise #enterprise
+Path
+C
+
+OWNERSHIP RULES
+path:src/example/pipeline/* person@sentry.io #infra fdrabek/android-breadcrumbs
+module:com.module.name.example #sdks 
+url:http://example.com/settings/* #product #infra 
+tags.sku_class:enterprise # perusahaan
+
+
+Cancel
+
+Save
